@@ -32,7 +32,7 @@ html {
     background-color: #000;
 }
 
-#nva, .subnav {
+#nva, .subnva {
     list-style-type: none;
 }
 
@@ -45,24 +45,30 @@ html {
     position: relative;
 }
 
+#nva li:hover .subnva {
+    display: block;
+}
+
 #nva > li:hover > a {
     color: #000;
     background-color: #ccc;
     
 }
 
-#nva .subnav {
+#nva .subnva {
+    display: none;
+    min-width: 160px;
     position: absolute;
     background-color: #fff;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-#nva .subnav li:hover {
+#nva .subnva li:hover {
     color: #000;
     background-color: #ccc;
 }
 
-#nva .subnav a {
+#nva .subnva a {
     color: #000;
     padding: 0 12px;
     line-height: 38px;
