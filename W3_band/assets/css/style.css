@@ -43,6 +43,7 @@ html {
 #nva li:hover a {
     color: #000;
     background-color: #fff;
+    display: inline-block;
 }
 
 #nva .subnav {
