@@ -32,33 +32,54 @@ html {
     background-color: #000;
 }
 
-#nva {
+#nva, .subnav {
+    list-style-type: none;
+}
 
+#nva > li {
+    display: inline-block;
 }
 
 #nva li {
-    display: inline-block;
+    
+    position: relative;
 }
 
-#nva li:hover a {
+#nva > li:hover > a {
     color: #000;
-    background-color: #fff;
-    display: inline-block;
+    background-color: #ccc;
+    
 }
 
 #nva .subnav {
-    display: none;
+    position: absolute;
+    background-color: #fff;
+}
+
+#nva .subnav li:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#nva .subnav a {
+    color: #000;
+}
+
+#nva > li > a {
+    color: #fff;
+    text-transform: uppercase;
 }
 
 #nva li a {
-    color: #fff;
+    display: inline-block;
     text-decoration: none;
     line-height: 46px;
     padding: 0 24px;
 }
 
 #slider {
-
+    min-height: 500px;
+    background-color: #333;
 }
 
 #content {
