@@ -5,6 +5,7 @@ margin: 0;
 box-sizing: border-box;
 }
 
+
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -22,6 +23,12 @@ html {
 4. kiểu dáng
 
  */
+
+
+ .clear {
+    clear: both;
+}
+
 
 #main {
 
@@ -174,9 +181,32 @@ html {
     line-height: 1.4;
 }
 
+#content .members-list {
+    margin-top: 48px;
+    /* overflow: hidden; */
+}
+
+#content .member-item {
+    float: left;
+    /* width: calc(100% /3); */
+    width: 33.33333%;
+    text-align: center;
+}
+
+#content .member-name {
+    font-size: 15px;
+    
+}
+
+#content .member-img {
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
 
 
 #footer {
 
 }
+
 
