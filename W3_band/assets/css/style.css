@@ -28,6 +28,10 @@ html {
 }
 
 #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 46px;
     background-color: #000;
 }
@@ -111,11 +115,12 @@ html {
 }
 
 #slider {
-
+    margin-top: 46px;
 }
 
 #content {
-
+    height: 1000px;
+    background-color: #ccc;
 }
 
 #footer {
