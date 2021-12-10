@@ -32,6 +32,10 @@ html {
     background-color: #000;
 }
 
+#nva {
+    display: inline-block;
+}
+
 #nva, .subnva {
     list-style-type: none;
 }
@@ -84,6 +88,26 @@ html {
     text-decoration: none;
     line-height: 46px;
     padding: 0 24px;
+}
+
+#nva .nva-arrow-down {
+    font-size: 14px;
+}
+
+#header .search-btn {
+    float: right;
+    padding: 0 21px;
+}
+
+#header .search-btn:hover {
+    cursor: pointer;
+    background-color: #f44336;
+}
+
+#header .search-icon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
 }
 
 #slider {
